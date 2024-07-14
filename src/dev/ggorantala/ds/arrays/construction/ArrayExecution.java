@@ -13,7 +13,7 @@ public class ArrayExecution {
     private static final int[] INPUT = new int[]{1, 2, 3, 4, 5};
 
     public static void main(String[] args) {
-        ArrayImplementation array = new ArrayImplementation(10);
+        Array array = new Array(10);
         for (int value : INPUT) {
             array.insert(value);
         }

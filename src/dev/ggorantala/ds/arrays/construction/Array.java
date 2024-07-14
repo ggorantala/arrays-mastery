@@ -14,13 +14,13 @@ package dev.ggorantala.ds.arrays.construction;
  *
  * @author ggorantala
  */
-public class ArrayImplementation {
+public class Array {
 
     private final int[] data;
     private int size;
 
     // constructor accepting the size before array declaration
-    public ArrayImplementation(int capacity) {
+    public Array(int capacity) {
         data = new int[capacity];
         size = 0;
     }
