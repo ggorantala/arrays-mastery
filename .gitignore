@@ -3,7 +3,8 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .idea
-ArrayMastery.iml
+/ArraysMatery.iml
+/arrays-mastery.iml
 
 ### Eclipse ###
 .apt_generated
