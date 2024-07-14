@@ -1,4 +1,4 @@
-package gettingstarted;
+package dev.ggorantala.ds.arrays.gettingstarted;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package shiftingalgorithms.deletions;
+package dev.ggorantala.ds.arrays.shiftingalgorithms.deletions;
 
 import java.util.Arrays;
 

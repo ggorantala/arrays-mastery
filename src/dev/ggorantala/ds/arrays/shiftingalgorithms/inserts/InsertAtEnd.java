@@ -1,4 +1,4 @@
-package shiftingalgorithms.inserts;
+package dev.ggorantala.ds.arrays.shiftingalgorithms.inserts;
 
 import java.util.Arrays;
 

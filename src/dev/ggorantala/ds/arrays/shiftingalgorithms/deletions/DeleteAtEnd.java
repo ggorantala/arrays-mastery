@@ -1,11 +1,10 @@
-package shiftingalgorithms.deletions;
+package dev.ggorantala.ds.arrays.shiftingalgorithms.deletions;
 
 import java.util.Arrays;
 
 /**
- * This class contains various assignments for demonstrating and creating arrays (such as
- * declaration and initialization). This class also contains print statements and two for-loops
- * that explains how to iterate through arrays
+ * This class contains array declaration and initialization. This class also contains an expression
+ * that deletes an item at the end of the array.
  *
  * @author ggorantala
  */
@@ -27,3 +26,4 @@ public class DeleteAtEnd {
         System.out.println("current array items length: " + currentLength); // 9
         System.out.println(Arrays.toString(A));
     }
+}
