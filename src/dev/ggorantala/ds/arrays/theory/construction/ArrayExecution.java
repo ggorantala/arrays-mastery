@@ -1,4 +1,4 @@
-package dev.ggorantala.ds.arrays.construction;
+package dev.ggorantala.ds.arrays.theory.construction;
 
 /**
  * This class contains an assignment for demonstrating and creating array we constructed in the

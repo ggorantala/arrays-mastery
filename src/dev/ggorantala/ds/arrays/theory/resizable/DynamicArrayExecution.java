@@ -1,4 +1,4 @@
-package dev.ggorantala.ds.arrays.resizable;
+package dev.ggorantala.ds.arrays.theory.resizable;
 
 /**
  * This class contains an assignment for demonstrating and creating dynamic array we constructed

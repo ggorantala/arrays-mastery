@@ -1,9 +1,9 @@
-package dev.ggorantala.ds.arrays.construction;
+package dev.ggorantala.ds.arrays.theory.resizable;
 
 /**
- * This class contains various assignments for demonstrating and creating arrays (such as
- * declaration and initialization). This class also contains some methods that creates
- * array like behavior.
+ * This class contains various assignments for demonstrating and creating dynamic arrays (such as
+ * declaration, initialization, and doubling the array). This class also contains some methods that
+ * creates array like behavior.
  * <p>
  * This class is strictly replicating basic array features such as:
  * - insertion,
@@ -14,29 +14,34 @@ package dev.ggorantala.ds.arrays.construction;
  *
  * @author ggorantala
  */
-public class Array {
-
-    private final int[] data;
+public class DynamicArray {
+    private int[] data;
     private int size;
 
-    // constructor accepting the size before array declaration
-    public Array(int capacity) {
+    public DynamicArray(int capacity) {
         data = new int[capacity];
         size = 0;
     }
 
-    // inserting an item at the end
     public void insert(int element) {
+
+        // if the array is full, resize it
+        if (data.length == size) {
+            // create a new array (twice the size)
+            int[] newData = new int[size * 2];
+
+            // copy all existing items
+            System.arraycopy(data, 0, newData, 0, size);
+            data = newData;
+        }
         data[size] = element;
         size++;
     }
 
-    // checking if index is out of array boundary
     public boolean isOutOfBounds(int index) {
         return index < 0 || index >= size;
     }
 
-    // removing an item from array
     public void remove(int index) {
         if (isOutOfBounds(index)) {
             throw new IndexOutOfBoundsException();
@@ -48,7 +53,6 @@ public class Array {
         size--;
     }
 
-    // get an element at index
     public int get(int index) {
         if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException();
@@ -56,12 +60,10 @@ public class Array {
         return data[index];
     }
 
-    // size of array
     public int size() {
         return size;
     }
 
-    // printing array elements
     public void print() {
         for (int i = 0; i < data.length; i += 1) {
             System.out.print(data[i] + ", ");

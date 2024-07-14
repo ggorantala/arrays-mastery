@@ -1,4 +1,4 @@
-package dev.ggorantala.ds.arrays.twodimensional;
+package dev.ggorantala.ds.arrays.theory.twodimensional;
 
 import java.util.Arrays;
 
