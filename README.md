@@ -6,6 +6,8 @@ Thanks for choosing this course! This course will help you learn about arrays an
 
 > Elevate your tech career with our "Arrays Mastery" course. Gain expert insights, master essential algorithms, and excel in coding interviews.
 
+Course link: https://ggorantala.dev/arrays-mastery
+
 ## What are Arrays?
 Arrays are fundamental for storing sequential data and play a critical role in optimizing memory access patterns.
 
