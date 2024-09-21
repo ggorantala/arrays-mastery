@@ -6,7 +6,7 @@ import java.util.HashMap;
 /**
  * This class contains various assignments for demonstrating and creating arrays (such as
  * declaration and initialization). This class also contains print statements and two for-loops
- * that explains how to iterate through arrays
+ * that explain how to iterate through arrays
  *
  * @author ggorantala
  */

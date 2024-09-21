@@ -58,7 +58,7 @@ Each position in the array has an index, starting at the `0`th index. In Java, i
 
 
 A simple sketch of this as follows
-![img.png](img.png)
+![img.png](arrays-with-memory-addresses.png)
 
 > In above figure: Integer in Java takes `4` bytes. Array occupies the contiguous memory from `#100` to `#120`.
 
@@ -74,7 +74,7 @@ Let's explore how "above Figure" can be represented in memory and addressed usin
 
 RAM is a storage device viewed as shelves containing memory locations following figure 2 is just a mere zoomed version of how data is stored inside RAM.
 
-![img_1.png](img_1.png)
+![img_1.png](arrays-view-in-RAM.png)
 
 Learn more about arrays in depth in the course. 
 
