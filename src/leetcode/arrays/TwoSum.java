@@ -8,4 +8,7 @@ package leetcode.arrays;
  */
 public class TwoSum {
     // this is pending
+    private static void twoSum(int[] array, int target) {
+
+    }
 }
