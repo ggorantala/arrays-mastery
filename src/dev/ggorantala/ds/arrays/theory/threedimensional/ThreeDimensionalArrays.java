@@ -51,14 +51,26 @@ public class ThreeDimensionalArrays {
     int[][][] cube = new int[2][3][3];
 
     // Initialize layer 0
-    cube[0][0][0] = 1;    cube[0][0][1] = 2;    cube[0][0][2] = 3;
-    cube[0][1][0] = 4;    cube[0][1][1] = 5;    cube[0][1][2] = 6;
-    cube[0][2][0] = 7;    cube[0][2][1] = 8;    cube[0][2][2] = 9;
+    cube[0][0][0] = 1;
+    cube[0][0][1] = 2;
+    cube[0][0][2] = 3;
+    cube[0][1][0] = 4;
+    cube[0][1][1] = 5;
+    cube[0][1][2] = 6;
+    cube[0][2][0] = 7;
+    cube[0][2][1] = 8;
+    cube[0][2][2] = 9;
 
     // Initialize layer 1
-    cube[1][0][0] = 10;    cube[1][0][1] = 11;    cube[1][0][2] = 12;
-    cube[1][1][0] = 13;    cube[1][1][1] = 14;    cube[1][1][2] = 15;
-    cube[1][2][0] = 16;    cube[1][2][1] = 17;    cube[1][2][2] = 18;
+    cube[1][0][0] = 10;
+    cube[1][0][1] = 11;
+    cube[1][0][2] = 12;
+    cube[1][1][0] = 13;
+    cube[1][1][1] = 14;
+    cube[1][1][2] = 15;
+    cube[1][2][0] = 16;
+    cube[1][2][1] = 17;
+    cube[1][2][2] = 18;
 
     // in-line initialization of a 3D array
     // More compact initialization
